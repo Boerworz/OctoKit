@@ -11584,7 +11584,7 @@ public struct PullRequestSimple: Codable {
         public var nodeID: String
         public var url: String
         public var name: String
-        public var description: String
+        public var description: String?
         public var color: String
         public var isDefault: Bool
 
