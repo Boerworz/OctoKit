@@ -5,8 +5,8 @@
         "package": "Get",
         "repositoryURL": "https://github.com/kean/Get",
         "state": {
-          "branch": "main",
-          "revision": "daa96e718b557ddd1e13888bb4e7ddd6c32116fd",
+          "branch": "0.5.0",
+          "revision": "068b400e3850f0953ec25d11d3a3893c4538ffd5",
           "version": null
         }
       },
@@ -14,8 +14,8 @@
         "package": "HTTPHeaders",
         "repositoryURL": "https://github.com/kean/HTTPHeaders",
         "state": {
-          "branch": "main",
-          "revision": "0bdbd7a48041e319c1ca061d0fd2ebdcb30f02c2",
+          "branch": "0.0.1",
+          "revision": "5068a6dacf890ee547d73786ebf6b06cb84da110",
           "version": null
         }
       },
@@ -23,17 +23,17 @@
         "package": "Mocker",
         "repositoryURL": "https://github.com/WeTransfer/Mocker.git",
         "state": {
-          "branch": null,
+          "branch": "2.5.5",
           "revision": "077c52a31f5ebb649ebe546cc77d8647760b2279",
-          "version": "2.5.5"
+          "version": null
         }
       },
       {
         "package": "NaiveDate",
         "repositoryURL": "https://github.com/kean/NaiveDate",
         "state": {
-          "branch": "master",
-          "revision": "e0810b3364ad3ac040bcf3ac7e5a21fec6a9d615",
+          "branch": "1.0.0",
+          "revision": "08fad5d02e9117f6cea96096c5951e445aa710b1",
           "version": null
         }
       },
@@ -41,9 +41,9 @@
         "package": "URLQueryEncoder",
         "repositoryURL": "https://github.com/kean/URLQueryEncoder",
         "state": {
-          "branch": null,
+          "branch": "0.2.0",
           "revision": "4cc975d4d075d0e62699a796a08284e217d4ee93",
-          "version": "0.2.0"
+          "version": null
         }
       }
     ]

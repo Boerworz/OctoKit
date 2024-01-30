@@ -10,11 +10,11 @@ let package = Package(
         .library(name: "OctoKit", targets: ["OctoKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/kean/Get", branch: "main"),
-        .package(url: "https://github.com/kean/HTTPHeaders", branch: "main"),
-        .package(url: "https://github.com/kean/NaiveDate", branch: "master"),
-        .package(url: "https://github.com/kean/URLQueryEncoder", from: "0.2.0"),
-        .package(url: "https://github.com/WeTransfer/Mocker.git", from: "2.3.0"),
+        .package(url: "https://github.com/kean/Get", revision: "0.5.0"),
+        .package(url: "https://github.com/kean/HTTPHeaders", revision: "0.0.1"),
+        .package(url: "https://github.com/kean/NaiveDate", revision: "1.0.0"),
+        .package(url: "https://github.com/kean/URLQueryEncoder", revision: "0.2.0"),
+        .package(url: "https://github.com/WeTransfer/Mocker.git", revision: "2.5.5"),
     ],
     targets: [
         .target(name: "OctoKit", dependencies: [
