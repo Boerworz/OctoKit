@@ -11481,9 +11481,9 @@ public struct AutoMerge: Codable {
     /// The merge method to use.
     public var mergeMethod: MergeMethod
     /// Title for the merge commit message.
-    public var commitTitle: String
+    public var commitTitle: String?
     /// Commit message for the merge commit.
-    public var commitMessage: String
+    public var commitMessage: String?
 
     /// The merge method to use.
     public enum MergeMethod: String, Codable, CaseIterable {
