@@ -15215,9 +15215,9 @@ public struct PullRequestReviewComment: Codable {
     /// Example: "config/database.yaml"
     public var path: String
     /// The line index in the diff to which the comment applies.
-    public var position: Int
+    public var position: Int?
     /// The index of the original line in the diff to which the comment applies.
-    public var originalPosition: Int
+    public var originalPosition: Int?
     /// The SHA of the commit to which the comment applies.
     ///
     /// Example: "6dcb09b5b57875f334f61aebed695e2e4193db5e"
